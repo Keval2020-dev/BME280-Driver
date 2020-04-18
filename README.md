@@ -12,8 +12,9 @@ BME280 Sensor interfaced on *I2C* bus over Nucleo Board.
 BME280  ->  Nucleo Board(Arduino Header)  
 VIN     ->  5 Volt
 GND     ->  GND
-SCL     ->  D15 
-SDA     ->  D14
+SCL     ->  PB9(D15) 
+SDA     ->  PB8(D14)
+INT     ->  PA6(D12)
 </pre>   
 Note: While Doing Connection keep the Solder Bridges of Nucleo Board in mind. 
 
